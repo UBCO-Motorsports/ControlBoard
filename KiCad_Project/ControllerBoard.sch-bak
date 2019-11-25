@@ -223,59 +223,59 @@ WD_OFF
 $Comp
 L power:GND #PWR0112
 U 1 1 5DA26775
-P 8600 8750
-F 0 "#PWR0112" H 8600 8500 50  0001 C CNN
-F 1 "GND" H 8605 8577 50  0000 C CNN
-F 2 "" H 8600 8750 50  0001 C CNN
-F 3 "" H 8600 8750 50  0001 C CNN
-	1    8600 8750
+P 8950 8700
+F 0 "#PWR0112" H 8950 8450 50  0001 C CNN
+F 1 "GND" H 8955 8527 50  0000 C CNN
+F 2 "" H 8950 8700 50  0001 C CNN
+F 3 "" H 8950 8700 50  0001 C CNN
+	1    8950 8700
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S1
 U 1 1 5D9F1750
-P 8800 8750
-F 0 "S1" H 8800 9025 50  0000 C CNN
-F 1 "RESET" H 8800 8934 50  0000 C CNN
-F 2 "Lukas_Library:PTS636 SK25F SMTR LFS" H 9000 8950 50  0001 L CNN
-F 3 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 9000 9050 60  0001 L CNN
-F 4 "CW181-ND" H 9000 9150 60  0001 L CNN "Digi-Key_PN"
-F 5 "GPTS203211B" H 9000 9250 60  0001 L CNN "MPN"
-F 6 "Switches" H 9000 9350 60  0001 L CNN "Category"
-F 7 "Pushbutton Switches" H 9000 9450 60  0001 L CNN "Family"
-F 8 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 9000 9550 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590" H 9000 9650 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH PUSHBUTTON SPST 1A 30V" H 9000 9750 60  0001 L CNN "Description"
-F 11 "CW Industries" H 9000 9850 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9000 9950 60  0001 L CNN "Status"
-	1    8800 8750
+P 9150 8700
+F 0 "S1" H 9150 8975 50  0000 C CNN
+F 1 "RESET" H 9150 8884 50  0000 C CNN
+F 2 "Lukas_Library:PTS636 SK25F SMTR LFS" H 9350 8900 50  0001 L CNN
+F 3 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 9350 9000 60  0001 L CNN
+F 4 "CW181-ND" H 9350 9100 60  0001 L CNN "Digi-Key_PN"
+F 5 "GPTS203211B" H 9350 9200 60  0001 L CNN "MPN"
+F 6 "Switches" H 9350 9300 60  0001 L CNN "Category"
+F 7 "Pushbutton Switches" H 9350 9400 60  0001 L CNN "Family"
+F 8 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 9350 9500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590" H 9350 9600 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH PUSHBUTTON SPST 1A 30V" H 9350 9700 60  0001 L CNN "Description"
+F 11 "CW Industries" H 9350 9800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9350 9900 60  0001 L CNN "Status"
+	1    9150 8700
 	1    0    0    -1  
 $EndComp
-Text GLabel 8750 7650 0    50   Input ~ 0
+Text GLabel 9100 7600 0    50   Input ~ 0
 WD_OFF
 $Comp
 L power:+5V #PWR09
 U 1 1 5DA47F00
-P 8750 7550
-F 0 "#PWR09" H 8750 7400 50  0001 C CNN
-F 1 "+5V" H 8765 7723 50  0000 C CNN
-F 2 "" H 8750 7550 50  0001 C CNN
-F 3 "" H 8750 7550 50  0001 C CNN
-	1    8750 7550
+P 9100 7500
+F 0 "#PWR09" H 9100 7350 50  0001 C CNN
+F 1 "+5V" H 9115 7673 50  0000 C CNN
+F 2 "" H 9100 7500 50  0001 C CNN
+F 3 "" H 9100 7500 50  0001 C CNN
+	1    9100 7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5DA43129
-P 8750 7950
-F 0 "#PWR010" H 8750 7700 50  0001 C CNN
-F 1 "GND" H 8755 7777 50  0000 C CNN
-F 2 "" H 8750 7950 50  0001 C CNN
-F 3 "" H 8750 7950 50  0001 C CNN
-	1    8750 7950
+P 9100 7900
+F 0 "#PWR010" H 9100 7650 50  0001 C CNN
+F 1 "GND" H 9105 7727 50  0000 C CNN
+F 2 "" H 9100 7900 50  0001 C CNN
+F 3 "" H 9100 7900 50  0001 C CNN
+	1    9100 7900
 	1    0    0    -1  
 $EndComp
-Text GLabel 9000 8750 2    50   Input ~ 0
+Text GLabel 9350 8700 2    50   Input ~ 0
 RESET
 Text GLabel 5900 4500 0    50   Input ~ 0
 MISO
@@ -295,100 +295,29 @@ NoConn ~ 6900 3300
 NoConn ~ 6900 3450
 Text GLabel 6900 3150 2    50   Input ~ 0
 LIMP
-Text GLabel 5850 7500 0    50   Input ~ 0
+Text GLabel 5850 7550 0    50   Input ~ 0
 LIMP
-$Comp
-L Device:R R1
-U 1 1 5DA89805
-P 6000 7350
-F 0 "R1" H 6070 7396 50  0000 L CNN
-F 1 "10k" H 6070 7305 50  0000 L CNN
-F 2 "digikey-footprints:0603" V 5930 7350 50  0001 C CNN
-F 3 "~" H 6000 7350 50  0001 C CNN
-	1    6000 7350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5850 7500 6000 7500
-$Comp
-L power:+5V #PWR08
-U 1 1 5DA8A55A
-P 6000 7200
-F 0 "#PWR08" H 6000 7050 50  0001 C CNN
-F 1 "+5V" H 6015 7373 50  0000 C CNN
-F 2 "" H 6000 7200 50  0001 C CNN
-F 3 "" H 6000 7200 50  0001 C CNN
-	1    6000 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:BSS84 Q1
-U 1 1 5DA8BEA7
-P 6450 7400
-F 0 "Q1" H 6558 7453 60  0000 L CNN
-F 1 "BSS84" H 6558 7347 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 6650 7600 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF" H 6650 7700 60  0001 L CNN
-F 4 "BSS84CT-ND" H 6650 7800 60  0001 L CNN "Digi-Key_PN"
-F 5 "BSS84" H 6650 7900 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 6650 8000 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 6650 8100 60  0001 L CNN "Family"
-F 8 "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF" H 6650 8200 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/BSS84/BSS84CT-ND/244297" H 6650 8300 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET P-CH 50V 130MA SOT-23" H 6650 8400 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 6650 8500 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6650 8600 60  0001 L CNN "Status"
-	1    6450 7400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 7500 6150 7500
-Connection ~ 6000 7500
 $Comp
 L Device:LED D1
 U 1 1 5DA92F7E
-P 6300 7850
-F 0 "D1" H 6293 8066 50  0000 C CNN
-F 1 "LED" H 6293 7975 50  0000 C CNN
-F 2 "digikey-footprints:LED_0603" H 6300 7850 50  0001 C CNN
-F 3 "~" H 6300 7850 50  0001 C CNN
-	1    6300 7850
+P 6600 7550
+F 0 "D1" H 6593 7766 50  0000 C CNN
+F 1 "LED" H 6593 7675 50  0000 C CNN
+F 2 "digikey-footprints:LED_0603" H 6600 7550 50  0001 C CNN
+F 3 "~" H 6600 7550 50  0001 C CNN
+	1    6600 7550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 5DA94589
-P 6000 7850
-F 0 "R2" V 5793 7850 50  0000 C CNN
-F 1 "300" V 5884 7850 50  0000 C CNN
-F 2 "digikey-footprints:0603" V 5930 7850 50  0001 C CNN
-F 3 "~" H 6000 7850 50  0001 C CNN
-	1    6000 7850
+P 6300 7550
+F 0 "R2" V 6093 7550 50  0000 C CNN
+F 1 "300" V 6184 7550 50  0000 C CNN
+F 2 "digikey-footprints:0603" V 6230 7550 50  0001 C CNN
+F 3 "~" H 6300 7550 50  0001 C CNN
+	1    6300 7550
 	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR012
-U 1 1 5DA94B40
-P 6450 7200
-F 0 "#PWR012" H 6450 7050 50  0001 C CNN
-F 1 "+5V" H 6465 7373 50  0000 C CNN
-F 2 "" H 6450 7200 50  0001 C CNN
-F 3 "" H 6450 7200 50  0001 C CNN
-	1    6450 7200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6450 7600 6450 7850
-$Comp
-L power:GND #PWR06
-U 1 1 5DA95530
-P 5800 7850
-F 0 "#PWR06" H 5800 7600 50  0001 C CNN
-F 1 "GND" H 5805 7677 50  0000 C CNN
-F 2 "" H 5800 7850 50  0001 C CNN
-F 3 "" H 5800 7850 50  0001 C CNN
-	1    5800 7850
-	1    0    0    -1  
 $EndComp
 Text Notes 6350 2300 0    50   ~ 0
 SBC
@@ -583,8 +512,6 @@ Wire Notes Line
 	5000 2300 7650 2300
 Wire Notes Line
 	5000 5900 7650 5900
-Wire Wire Line
-	5850 7850 5800 7850
 Text GLabel 9050 3100 2    50   Input ~ 0
 SWDCLK
 Text GLabel 9050 3000 2    50   Input ~ 0
@@ -1034,14 +961,14 @@ Wire Notes Line
 Text Notes 9050 4850 0    50   ~ 0
 CAN
 Wire Notes Line
-	9650 7150 8000 7150
+	10000 7100 8350 7100
 Wire Notes Line
-	8000 7150 8000 9150
+	8350 7100 8350 9100
 Wire Notes Line
-	8000 9150 9650 9150
+	8350 9100 10000 9100
 Wire Notes Line
-	9650 7150 9650 9150
-Text Notes 8450 7150 0    50   ~ 0
+	10000 7100 10000 9100
+Text Notes 8800 7100 0    50   ~ 0
 Human Interface
 Text Notes 2500 8050 0    50   ~ 0
 Header
@@ -1150,25 +1077,65 @@ Wire Notes Line
 $Comp
 L Device:R R9
 U 1 1 5DC2DF84
-P 8750 7800
-F 0 "R9" H 8800 7850 50  0000 L CNN
-F 1 "1.3k" H 8800 7750 50  0000 L CNN
-F 2 "digikey-footprints:0603" V 8680 7800 50  0001 C CNN
-F 3 "~" H 8750 7800 50  0001 C CNN
-	1    8750 7800
+P 9100 7750
+F 0 "R9" H 9150 7800 50  0000 L CNN
+F 1 "1.3k" H 9150 7700 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 9030 7750 50  0001 C CNN
+F 3 "~" H 9100 7750 50  0001 C CNN
+	1    9100 7750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J3
 U 1 1 5DA7FA06
-P 8950 7650
-F 0 "J3" H 8922 7532 50  0000 R CNN
-F 1 "WD_Disable" H 8922 7623 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x01_P1.27mm_Vertical" H 8950 7650 50  0001 C CNN
-F 3 "~" H 8950 7650 50  0001 C CNN
-	1    8950 7650
+P 9300 7600
+F 0 "J3" H 9272 7482 50  0000 R CNN
+F 1 "WD_Disable" H 9272 7573 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x01_P1.27mm_Vertical" H 9300 7600 50  0001 C CNN
+F 3 "~" H 9300 7600 50  0001 C CNN
+	1    9300 7600
 	-1   0    0    1   
 $EndComp
 NoConn ~ 8550 3300
 NoConn ~ 8550 3400
+$Comp
+L Device:R R1
+U 1 1 5DA89805
+P 6000 7400
+F 0 "R1" H 5800 7500 50  0000 L CNN
+F 1 "10k" H 5800 7400 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 5930 7400 50  0001 C CNN
+F 3 "~" H 6000 7400 50  0001 C CNN
+	1    6000 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DDA7F80
+P 6750 7250
+F 0 "#PWR?" H 6750 7100 50  0001 C CNN
+F 1 "+5V" H 6750 7400 50  0000 C CNN
+F 2 "" H 6750 7250 50  0001 C CNN
+F 3 "" H 6750 7250 50  0001 C CNN
+	1    6750 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 7550 6150 7550
+$Comp
+L power:+5V #PWR?
+U 1 1 5DDAFD82
+P 6000 7250
+F 0 "#PWR?" H 6000 7100 50  0001 C CNN
+F 1 "+5V" H 6000 7400 50  0000 C CNN
+F 2 "" H 6000 7250 50  0001 C CNN
+F 3 "" H 6000 7250 50  0001 C CNN
+	1    6000 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 7250 6750 7550
+Wire Wire Line
+	5850 7550 6000 7550
+Connection ~ 6000 7550
 $EndSCHEMATC
