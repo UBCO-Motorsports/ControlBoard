@@ -1,0 +1,92 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Includes</name>
+      <values lines_count="7">
+        <Line>"${ProjDirPath}/SDK/platform/drivers/src/clock/S32K1xx"</Line>
+        <Line>"${ProjDirPath}/SDK/rtos/osif/"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/common"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/S32K116/include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/S32K116/startup"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_c_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_S32K116_48"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="SDK/platform/drivers/src/pins/pins_gpio_hw_access.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807917" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/drivers/inc/edma_driver.h" FileDate="2019-12-13, 21:49:06" FileAge="1576302546509" FileType="1048576" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2019-12-13, 21:31:02" FileAge="1576301462411" FileType="45637" CompNumb="3" />
+      <File Name="SDK/platform/devices/status.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807792" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2019-12-13, 21:31:02" FileAge="1576301462442" FileType="45637" CompNumb="3" />
+      <File Name="Generated_Code/lpspiCom1.h" FileDate="2019-12-13, 21:49:07" FileAge="1576302547103" FileType="45637" CompNumb="9" />
+      <File Name="Sources/main.c" FileDate="2019-12-13, 21:43:57" FileAge="1576302237021" FileType="128" />
+      <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807933" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/devices/S32K116/include/S32K116_features.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807746" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/lpspiCom1.c" FileDate="2019-12-13, 21:49:07" FileAge="1576302547087" FileType="45637" CompNumb="9" />
+      <File Name="Documentation/ControlBoard_CORE_Settings.xml" FileDate="2019-12-13, 21:49:07" FileAge="1576302547321" FileType="3072" />
+      <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.c" FileDate="2019-12-13, 21:20:07" FileAge="1576300807917" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pcc_hw_access.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807855" FileType="1048576" CompNumb="3" />
+      <File Name="Generated_Code/pin_mux.h" FileDate="2019-12-13, 21:31:02" FileAge="1576301462380" FileType="45637" CompNumb="2" />
+      <File Name="SDK/platform/devices/common/s32_core_cm0.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807761" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/devices/S32K116/startup/system_S32K116.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807761" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2019-12-13, 21:31:02" FileAge="1576301462411" FileType="45637" CompNumb="2" />
+      <File Name="SDK/platform/devices/S32K116/include/S32K116.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807746" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/devices/S32K116/startup/system_S32K116.c" FileDate="2019-12-13, 21:20:07" FileAge="1576300807746" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807792" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/drivers/inc/lpspi_shared_function.h" FileDate="2019-12-13, 21:49:06" FileAge="1576302546978" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/smc_hw_access.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807871" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2019-12-13, 21:20:07" FileAge="1576300807777" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807839" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/platform/drivers/src/interrupt/interrupt_manager.c" FileDate="2019-12-13, 21:20:07" FileAge="1576300807886" FileType="1048576" CompNumb="4" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c" FileDate="2019-12-13, 21:20:07" FileAge="1576300807824" FileType="1048576" CompNumb="3" />
+      <File Name="Documentation/ControlBoard_CORE.txt" FileDate="2019-12-13, 21:49:07" FileAge="1576302547384" FileType="3072" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/sim_hw_access.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807871" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/platform/drivers/src/lpspi/lpspi_shared_function.c" FileDate="2019-12-13, 21:49:06" FileAge="1576302546837" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/lpspi_slave_driver.h" FileDate="2019-12-13, 21:49:07" FileAge="1576302547009" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/clock_manager.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807808" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/platform/devices/callbacks.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807761" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/lpspi/lpspi_hw_access.h" FileDate="2019-12-13, 21:49:06" FileAge="1576302546931" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pmc_hw_access.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807855" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/rtos/osif/osif.h" FileDate="2019-12-13, 21:49:06" FileAge="1576302546524" FileType="1048576" />
+      <File Name="Generated_Code/canCom1.h" FileDate="2019-12-13, 21:49:07" FileAge="1576302547118" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2019-12-13, 21:49:07" FileAge="1576302547243" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/flexcan/flexcan_hw_access.h" FileDate="2019-12-13, 21:49:06" FileAge="1576302546618" FileType="1048576" />
+      <File Name="Generated_Code/dmaController1.h" FileDate="2019-12-13, 21:49:07" FileAge="1576302547134" FileType="45637" CompNumb="6" />
+      <File Name="SDK/platform/drivers/src/lpspi/lpspi_hw_access.c" FileDate="2019-12-13, 21:49:06" FileAge="1576302546899" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/interrupt_manager.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807808" FileType="1048576" CompNumb="4" />
+      <File Name="Generated_Code/canCom1.c" FileDate="2019-12-13, 21:49:07" FileAge="1576302547103" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2019-12-13, 21:49:07" FileAge="1576302547243" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/edma/edma_driver.c" FileDate="2019-12-13, 21:49:06" FileAge="1576302546384" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/flexcan/flexcan_hw_access.c" FileDate="2019-12-13, 21:49:06" FileAge="1576302546587" FileType="1048576" />
+      <File Name="Generated_Code/dmaController1.c" FileDate="2019-12-13, 21:49:07" FileAge="1576302547134" FileType="45637" CompNumb="6" />
+      <File Name="SDK/platform/drivers/src/edma/edma_irq.h" FileDate="2019-12-13, 21:49:06" FileAge="1576302546478" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/flexcan_driver.h" FileDate="2019-12-13, 21:49:06" FileAge="1576302546728" FileType="1048576" />
+      <File Name="SDK/platform/devices/device_registers.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807777" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/edma/edma_irq.c" FileDate="2019-12-13, 21:49:06" FileAge="1576302546446" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/pins/pins_driver.c" FileDate="2019-12-13, 21:20:07" FileAge="1576300807902" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/devices/devassert.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807761" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/flexcan/flexcan_irq.h" FileDate="2019-12-13, 21:49:06" FileAge="1576302546681" FileType="1048576" />
+      <File Name="SDK/rtos/osif/osif_baremetal.c" FileDate="2019-12-13, 21:49:06" FileAge="1576302546556" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/edma/edma_hw_access.h" FileDate="2019-12-13, 21:49:06" FileAge="1576302546478" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/flexcan/flexcan_irq.c" FileDate="2019-12-13, 21:49:06" FileAge="1576302546696" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/scg_hw_access.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807855" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/platform/drivers/src/lpspi/lpspi_irq.c" FileDate="2019-12-13, 21:49:06" FileAge="1576302546759" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/edma/edma_hw_access.c" FileDate="2019-12-13, 21:49:06" FileAge="1576302546415" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/flexcan/flexcan_driver.c" FileDate="2019-12-13, 21:49:06" FileAge="1576302546634" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2019-12-13, 21:20:07" FileAge="1576300807824" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/drivers/src/clock/clock_manager.c" FileDate="2019-12-13, 21:20:07" FileAge="1576300807886" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/platform/drivers/src/lpspi/lpspi_master_driver.c" FileDate="2019-12-13, 21:49:06" FileAge="1576302546806" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/lpspi/lpspi_slave_driver.c" FileDate="2019-12-13, 21:49:06" FileAge="1576302546868" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/lpspi_master_driver.h" FileDate="2019-12-13, 21:49:06" FileAge="1576302546962" FileType="1048576" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>5</CodeGenReference>
+</CodeGenerationInfo>
