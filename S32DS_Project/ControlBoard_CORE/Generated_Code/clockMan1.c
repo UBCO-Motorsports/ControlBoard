@@ -7,7 +7,7 @@
 **     Version     : Component SDK_S32K116_00, Driver 01.00, CPU db: 3.00.000
 **     Repository  : SDK_S32K116_00
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2019-12-13, 21:30, # CodeGen: 3
+**     Date/Time   : 2020-01-08, 15:37, # CodeGen: 33
 **
 **     Copyright 1997 - 2015 Freescale Semiconductor, Inc.
 **     Copyright 2016-2017 NXP
@@ -63,9 +63,30 @@ peripheral_clock_config_t peripheralClockConfig0[NUM_OF_PERIPHERAL_CLOCKS_0] = {
         .divider          = DIVIDE_BY_ONE,
     },
     {
+        .clockName        = LPIT0_CLK,
+        .clkGate          = true,
+        .clkSrc           = CLK_SRC_SIRC_DIV2,
+        .frac             = MULTIPLY_BY_ONE,
+        .divider          = DIVIDE_BY_ONE,
+    },
+    {
         .clockName        = LPSPI0_CLK,
         .clkGate          = true,
         .clkSrc           = CLK_SRC_SIRC_DIV2,
+        .frac             = MULTIPLY_BY_ONE,
+        .divider          = DIVIDE_BY_ONE,
+    },
+    {
+        .clockName        = LPUART0_CLK,
+        .clkGate          = true,
+        .clkSrc           = CLK_SRC_SIRC_DIV2,
+        .frac             = MULTIPLY_BY_ONE,
+        .divider          = DIVIDE_BY_ONE,
+    },
+    {
+        .clockName        = PDB0_CLK,
+        .clkGate          = true,
+        .clkSrc           = CLK_SRC_OFF,
         .frac             = MULTIPLY_BY_ONE,
         .divider          = DIVIDE_BY_ONE,
     },
@@ -146,18 +167,7 @@ clock_manager_user_config_t clockMan1_InitConfig0 = {
         },
         .soscConfig =
         {
-            .initialize       = true,                                /*!< Initialize */
-            .freq             = 8000000U,                            /*!< Frequency  */
-            /* SOSCCSR */
-            .monitorMode      = SCG_SOSC_MONITOR_DISABLE,            /*!< SOSCCM      */
-            .locked           = false,                               /*!< LK          */
-            /* SOSCCFG */
-            .extRef           = SCG_SOSC_REF_OSC,                    /*!< EREFS       */
-            .gain             = SCG_SOSC_GAIN_LOW,                   /*!< HGO         */
-            .range            = SCG_SOSC_RANGE_HIGH,                 /*!< RANGE       */
-            /* SOSCDIV */
-            .div1             = SCG_ASYNC_CLOCK_DIV_BY_1,            /*!< SOSCDIV1    */
-            .div2             = SCG_ASYNC_CLOCK_DIV_BY_1,            /*!< SOSCDIV2    */
+            .initialize       = false,                               /*!< Do not initialize*/
         },
         .spllConfig =
         {
