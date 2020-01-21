@@ -7,7 +7,7 @@
 **     Version     : Component 01.197, Driver 01.00, CPU db: 3.00.000
 **     Datasheet   : S32K1XXRM Rev. 6, 12/2017
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2019-12-13, 21:49, # CodeGen: 4
+**     Date/Time   : 2020-01-08, 13:39, # CodeGen: 21
 **     Abstract    :
 **
 **     Settings    :
@@ -64,6 +64,8 @@
 #include "lpspi_master_driver.h"
 #include "lpspi_slave_driver.h"
 #include "lpspi_shared_function.h"
+#include "lpuart_driver.h"
+#include "lpit_driver.h"
 #include "system_S32K116.h"
 
 /* Including needed modules to compile this module/procedure */
@@ -72,6 +74,8 @@
 #include "canCom1.h"
 #include "dmaController1.h"
 #include "lpspiCom1.h"
+#include "lpuart1.h"
+#include "lpit1.h"
 
 #ifdef __cplusplus
 extern "C" {
