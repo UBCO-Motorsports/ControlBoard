@@ -84,25 +84,28 @@ void Init_SBC(void) {
 
 
 	//Setup watchdog
-	SBC_Setup[0] = 0x0;
-	SBC_Setup[1] = 0xE;
+	SBC_Setup[0] = 0x00;
+	SBC_Setup[1] = 0x4;
 	LPSPI_DRV_MasterTransferBlocking(LPSPICOM1,SBC_Setup, rec_buffer, 2, 1000);
 
 
 	//Force normal mode and enable v2 for CAN transciever
-	SBC_Setup[0] = 0x0;
+	SBC_Setup[0] = 0x00;
 	SBC_Setup[1] = 0x2E;
 	LPSPI_DRV_MasterTransferBlocking(LPSPICOM1,SBC_Setup, rec_buffer, 2, 1000);
+
 }
 
 void FeedWatchDog (void);
 void FeedWatchDog(void) {
 	uint8_t SBC_Setup[2];
-	SBC_Setup[0] = 0x0;
-	SBC_Setup[1] = 0xE;
+	uint8_t rec_buffer[2];
+
+	SBC_Setup[0] = 0x00;
+	SBC_Setup[1] = 0x4;
 	status_t result;
-	result = LPSPI_DRV_MasterTransferBlocking(LPSPICOM1, SBC_Setup, NULL, 2, 1000);
-	//result = LPSPI_DRV_MasterTransfer(LPSPICOM1, SBC_Setup, NULL, 2);
+	result = LPSPI_DRV_MasterTransferBlocking(LPSPICOM1, SBC_Setup, rec_buffer, 2, 1000);
+
 }
 
 void LPIT_ISR(void);
